@@ -1,1 +1,1 @@
-# bot-vk
+# bot-vk playing cities

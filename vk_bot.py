@@ -146,5 +146,5 @@ class Bot:
 
 if __name__ == "__main__":
     configure_logging()
-    bot = Bot('41bdc7bf194e25d974295ddbbf61323755ae04f4d7378c44c0f654a3803875e92e54e00f6af8310e8ae93', '200478004')
+    bot = Bot(TOKEN, ID)
     bot.run()

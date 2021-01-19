@@ -71,7 +71,7 @@ class Bot:
                         self.send_msg(
                             'https://www.google.ru/maps/place/' + self.status_user[self.user_id]['bot_cities'])
                     elif self.user_msg in self.communication['to_stop']:
-                        self.send_msg('Слабовато')
+                        self.send_msg('Пиши, как соберешься')
                         del self.status_user[self.user_id]
                     else:
                         self.send_msg(self.city_game())

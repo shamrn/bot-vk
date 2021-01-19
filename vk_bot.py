@@ -148,5 +148,5 @@ ID = os.environ.get('ID')
 
 if __name__ == "__main__":
     configure_logging()
-    bot = Bot(TOKEN, ID)
+    bot = Bot(str(TOKEN), str(ID))
     bot.run()

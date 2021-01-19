@@ -144,7 +144,7 @@ class Bot:
 
 
 TOKEN = os.environ.get('TOKEN')
-ID = os.environ_get('ID')           
+ID = os.environ.get('ID')           
 
 if __name__ == "__main__":
     configure_logging()

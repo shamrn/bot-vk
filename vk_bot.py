@@ -2,6 +2,7 @@ import vk_api
 from vk_api.bot_longpoll import VkBotEventType, VkBotLongPoll
 import random
 import logging
+import os
 
 log = logging.getLogger('vk_bot')
 def configure_logging():
@@ -142,7 +143,8 @@ class Bot:
                 return 'Попробуй еще раз, тебе на букву:' + last_letter(self.status_user[self.user_id]['bot_cities'])
 
 
-
+TOKEN = os.environ.get('TOKEN')
+ID = os.environ_get('ID')           
 
 if __name__ == "__main__":
     configure_logging()
